@@ -1,0 +1,151 @@
+
+#text-first {
+    color: red;
+}
+#text-second {
+    color: brown;
+}
+#text-third {
+    color: green;
+}
+#text-fourth {
+    color: blue;
+}
+#text-fiveth {
+    color: purple;
+}
+.button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 15px 15px #000000;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.5s linear;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    
+}
+.block__title {
+    color: black;
+    font-size: 23px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.block__span {
+    color: green;
+}
+.content__block-first {
+    box-shadow: 2px 2px 5px 0;
+}
+.content__block-second {
+    box-shadow: 2px 2px 5px 0;
+
+}
+.content__img {
+    max-width: 150px;
+    padding-top: 30px;
+}
+.content__hr {
+    max-width: 100%;
+    background-color: grey;
+    height: 2px;
+}
+.wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.wrapper-second {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.content__info {
+    font-size: 21px;
+    font-weight: 500;
+    color: grey;
+}
+.strong {
+    color:black;
+    font-weight: 600;
+}
+.content__subinfo {
+    font-size: 13px;
+}
+.content {
+    padding-bottom: 80px;
+}
+.block-second__title {
+    color: grey;
+    font-size: 23px;
+}
+.block-second-info {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.date {
+    font-size: 14px;
+    color: grey;
+}
+.date-strong {
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.block-second-text {
+    font-size: 14px;
+    color: grey;
+    font-weight: 400;
+}
+.block-second-btn {
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.2s linear;
+}
+.block-second-btn:hover {
+    cursor: pointer;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 55px;
+    padding-right: 55px;
+    transition: all 0.2s linear;
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.block-second-btn:focus {
+    border: none;
+}
+.wrapper-btn {
+    padding-top: 15px;
+    padding-bottom:15px;
+}
